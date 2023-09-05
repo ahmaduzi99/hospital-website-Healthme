@@ -1,0 +1,57 @@
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'24
+}
+
+.kotak {
+    display: flex;
+}
+
+.docter {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.a {
+    color: #1D2A4D;
+}
+
+.chat>p {
+
+    margin: 0;
+    color: black;
+}
+
+.chat>p:nth-child(odd) {
+    text-align: end;
+}
+
+.pesan {
+    display: flex;
+    width: 100%;
+    color: #1D2A4D !important;
+    align-items: center;
+}
+
+.tombol-pesan {
+    width: 92%;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
